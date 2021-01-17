@@ -1,0 +1,90 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url(redcage.jpg)no-repeat center center fixed;
+    background-size: auto;
+}
+
+.login-form{
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    z-index: 1;
+    background: #ccc3c4;
+    opacity: 90%;
+    max-width: 260px;
+    margin: 200px auto 100px;
+    padding: 10px 45px 30px 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+}
+.login-form p{
+    font-size: 15px;
+    padding: 1px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.651);
+}
+.input-field input{
+    outline: 0;
+    border-radius: 10px;
+    background: #e6dddd;
+    
+    /* width: 100%; */
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.input-field input:hover{
+    background-color: #f7c9c9d3;
+    transition: all 1s ease 0s;
+}
+.input-field input:focus{
+    background-color:#fcfcfc ;
+    transition: all 1s ease 0s;
+}
+.input-field button{
+    text-transform: uppercase;
+    outline: 0;
+    border-radius: 10px;
+    background: #cf454f;
+    opacity: 100%;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #5f2121;
+    font-size: 20px;
+    cursor: pointer;
+
+    
+}
+.input-field button:hover, .input-field button:active, .input-field button:focus{
+    background-color: #eb9494;
+    transition: all 0.5s ease 0s;
+}
+.extra .message{
+    margin: 17px 0 0;
+    color: #B3B3B3;
+    font-size: 12px;
+}
+
+a:visited, a:link, a:active
+{
+    text-align: left;
+    color: #5c5c5c;
+    text-decoration: none;
+
+    
+}
+
+a:hover{
+    text-align: left;
+    color: #353535;
+    text-decoration: none;
+}
+i{
+    padding: 10px;
+    font-size: 1.5em;
+    color: #5f2121;
+}
